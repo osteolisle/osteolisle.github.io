@@ -12,15 +12,21 @@ var map = '';
 var center;
 
 function initialize() {
+  var positionLatLng = {lat: 47.449455, lng: 6.582671 };
   var mapOptions = {
-    zoom: 14,
-    center: new google.maps.LatLng(37.769725, -122.462154),
+    zoom: 17,
+    center: positionLatLng,
     scrollwheel: false,
     draggable:false
   };
 
   map = new google.maps.Map(document.getElementById('GoogleMap'),  mapOptions);
 
+  var marker = new google.maps.Marker({
+	  position: positionLatLng,
+	  map : map,
+	  title : "Cabinet d'ostéopathie Audrey GURY"
+  });
   google.maps.event.addDomListener(map, 'idle', function() {
     calculateCenter();
   });
@@ -113,23 +119,23 @@ $(document).ready(function(){
         return false;
       }
     }
-  });	
+  });
 
   //Header Small
   window.addEventListener('scroll', function(e){
     var distanceY = window.pageYOffset || document.documentElement.scrollTop,
     shrinkOn = 50;
-    
+
     if (distanceY > shrinkOn) {
       $('header').addClass("smaller");
     } else {
       $('header').toggleClass("smaller");
     }
   });
-  
+
   loadGoogleMap();
 
-}); 
+});
 
 $(document).on("scroll", onScroll);
 
