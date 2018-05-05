@@ -16,12 +16,12 @@ http://www.templatemo.com/tm-473-november
 	header .Center { width: 100%; padding: 0px 2%;  }
 	header .site-logo { padding: 18px 0 0 1px; }
 	header.smaller .site-logo { padding: 11px 0 0; }
-	
+
 	.Navigation { margin-right: 0px; }
 	.Navigation li a { padding: 30px 36px; }
 	header.smaller .Navigation li a { padding: 16px 36px; }
 
-	
+
 	.Banner_sec { width: 100%; height: 524px; }
 	.Banner_sec .Center {width: 100%; padding: 0px 2%; }
 	.Banner_sec .bannerside { top: 144px; }
@@ -64,16 +64,16 @@ http://www.templatemo.com/tm-473-november
 
 	.Contact_sec { width: 100%; }
 	.Contact_sec .Center { width: 100%; padding: 70px 2%;}
-	
+
 	.Contact_sec .Map { width: 100%;}
 	.Contact_sec .Map img { height: 300px; width: 100%; }
-	
+
 	.Get_sec { width: 100%; }
 	.Get_sec .Mid { width: 100%; padding: 50px 2%; }
 
 	footer { width: 100%; }
 	footer .Cntr { width: 100%; padding: 20px 2%; }
-}	
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -81,7 +81,7 @@ http://www.templatemo.com/tm-473-november
 	header { width: 100%; height: 87px; }
 	header .Center { width: 100%; padding: 0px 2%; }
 	header .site-logo { padding: 27px 0 0 1px;  position: relative; z-index: 1; }
-	header .site-logo h1 { line-height: 33px; }	
+	header .site-logo h1 { line-height: 33px; }
 	header.smaller .Navigation li a { padding: 16px 20px; }
 
 	.Navigation {  margin-right: 0px; }
@@ -116,7 +116,7 @@ http://www.templatemo.com/tm-473-november
 	.About_sec .Tabside .TabImage { width: 45.63%; }
 	.About_sec .Tabside .TabImage .img1 { left: 0px; background-position: -40px 203px; }
 	.About_sec .Tabside .TabImage .img1 img { width: 95%; }
-	
+
 	.About_sec .Tabside .TabImage .img2 { left: 15px; height: auto; background-position: -50px 132px;  }
 	.About_sec .Tabside .TabImage .img2 img { width: 90%; height: auto; }
 
@@ -164,10 +164,10 @@ http://www.templatemo.com/tm-473-november
 
 	.Contact_sec .Map { width: 100%;}
 	.Contact_sec .Map img { height: 250px; width: 100%; }
-	
+
 	.Get_sec { width: 100%; }
 	.Get_sec .Mid { width: 100%; padding: 50px 2%; }
-	.Get_sec .Leftside p { margin: 0 0 20px; } 
+	.Get_sec .Leftside p { margin: 0 0 20px; }
 	.Get_sec .Leftside input.field { padding: 10px 20px; }
 	.Get_sec .Leftside textarea { padding: 10px 20px; height: 125px; }
 	.Get_sec .Leftside .button {-webkit-appearance: none; }
@@ -178,7 +178,7 @@ http://www.templatemo.com/tm-473-november
 
 	footer { width: 100%; }
 	footer .Cntr { width: 100%; padding: 20px 2%; }
-	
+
 
 }
 
@@ -192,7 +192,7 @@ http://www.templatemo.com/tm-473-november
 	header.smaller { height: 55px;}
 	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
 	header.smaller .site-logo h1 a { font-size: 36px; }
-	
+
 	#mobile_sec { position: fixed; width: 100%; }
 	#mobile_sec .mobile { display: block; position: relative; float: right;}
 	#mobile_sec .menumobile { display: none; width: 100%; position: absolute; top: 55px; right: 0%; background: rgba(0, 0, 0, 0.5);  }
@@ -201,8 +201,8 @@ http://www.templatemo.com/tm-473-november
 	#mobile_sec .menumobile .Navigation li { float: none; width: 100%; border-bottom: solid 1px #365374; }
 	#mobile_sec .menumobile .Navigation li a { padding: 10px 21px; background: none; border-bottom: none; }
 	#mobile_sec .menumobile .Navigation li:last-child { border-bottom: none; }
-	
-	
+
+
 	.Banner_sec { width: 100%; height: 620px; }
 	.Banner_sec .Center {width: 100%; padding: 0px 3%; }
 	.Banner_sec .bannerside { top: 144px; }
@@ -217,7 +217,7 @@ http://www.templatemo.com/tm-473-november
 	.Banner_sec .rightside .Shadow { width: 105.5%; left: -16px; }
 	.Banner_sec .rightside .prevBtn { top: 100px; left: 10px; }
 	.Banner_sec .rightside .nextBtn { top: 100px; right: 10px; }
-	.Banner_sec .rightside #slider li img { height: 280px; width: 100%;}	
+	.Banner_sec .rightside #slider li img { height: 280px; width: 100%;}
 
 	.bgcolor { height: 50px; }
 
@@ -259,7 +259,7 @@ http://www.templatemo.com/tm-473-november
 	.Pricing_sec .Pricingside li .Order { width: 100%; float: none; }
 	.Pricing_sec .Pricingside li:hover .Band { height: 75px; }
 
-	
+
 	.Contact_sec { width: 100%; }
 	.Contact_sec .Center { width: 100%; padding: 80px 3%;}
 	.Contact_sec h2 { font-size: 30px; line-height: 30px; }
@@ -267,11 +267,11 @@ http://www.templatemo.com/tm-473-november
 
 	.Contact_sec .Map { width: 100%;}
 	.Contact_sec .Map img { height: 200px; width: 100%; }
-	
+
 	.Get_sec { width: 100%; }
 	.Get_sec .Mid { width: 100%; padding: 30px 3%; }
 	.Get_sec .Leftside { width: 100%; float: right;}
-	.Get_sec .Leftside p { margin: 0 0 20px; } 
+	.Get_sec .Leftside p { margin: 0 0 20px; }
 	.Get_sec .Leftside input.field { padding: 10px 20px; }
 	.Get_sec .Leftside textarea { padding: 10px 20px; height: 125px; }
 	.Get_sec .Leftside .button { -webkit-appearance: none;  margin: 0px; padding: 12px 0px; }
@@ -290,13 +290,15 @@ http://www.templatemo.com/tm-473-november
 
 
 	header { width: 100%; position: absolute; height: 57px; }
-	header .Center { width: 100%;}
-	header .site-logo { padding: 10px 0% 0px 3%; position: relative; z-index: 1; }
-	header .site-logo h1 { margin: 0px; line-height: 36px; }
+	header .Center { width: 100%; max-width: initial;}
+	header .site-logo { padding: 10px 0% 0px 3%; position: relative; z-index: 1; width: 90%;}
+	header .site-logo h1 { margin: 0px; line-height: 18px; }
+	header .site-logo h1 a { font-size: 20px; }
 	header.smaller { height: 55px;}
 	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
-	header.smaller .site-logo h1 a { font-size: 36px; }
-	
+	header.smaller .site-logo h1 { line-height: 18px; }
+	header.smaller .site-logo h1 a { font-size: 18px; }
+
 	#mobile_sec { position: fixed; width: 100%;}
 	#mobile_sec .mobile { display: block; position: relative; float: right; }
 	#mobile_sec .menumobile { display: none; width: 100%; position: absolute; top: 55px; right: 0%; background: rgba(0, 0, 0, 0.5);  }
@@ -304,10 +306,10 @@ http://www.templatemo.com/tm-473-november
 	#mobile_sec .menumobile .Navigation ul { float: none;}
 	#mobile_sec .menumobile .Navigation li { float: none; width: 100%; border-bottom: solid 1px #365374; }
 	#mobile_sec .menumobile .Navigation li a { padding: 10px; background: none; border-bottom: none; }
-	#mobile_sec .menumobile .Navigation li a:hover, #mobile_sec .menumobile .Navigation li a.active { background: #ff9000; border-bottom: none; }
+	#mobile_sec .menumobile .Navigation li a:hover, #mobile_sec .menumobile .Navigation li a.active { background: #50bc45; border-bottom: none; }
 	#mobile_sec .menumobile .Navigation li:last-child { border-bottom: none; }
 
-	
+
 	.Banner_sec { width: 100%; height: 556px; }
 	.Banner_sec .Center {width: 100%; padding: 0px 3%; }
 	.Banner_sec .bannerside { top: 90px; }
@@ -326,17 +328,17 @@ http://www.templatemo.com/tm-473-november
 	.Banner_sec .rightside .Shadow { width: 105.5%; left: -16px; }
 	.Banner_sec .rightside .prevBtn { top: 100px; left: 10px; }
 	.Banner_sec .rightside .nextBtn { top: 100px; right: 10px; }
-	.Banner_sec .rightside #slider li img { height: 290px; width: 100%;}	
+	.Banner_sec .rightside #slider li img { height: 290px; width: 100%;}
 
-	
+
 	.bgcolor { height: 50px; }
 
 	#Container { width: 100%; }
 
 	.About_sec,
 	.Services_sec,
-	.Pricing_sec { 
-		width: 100%; padding: 60px 0px 30px; 
+	.Pricing_sec {
+		width: 100%; padding: 60px 0px 30px;
 	}
 	.About_sec .Center { width: 100%; padding: 0px 3%; }
 	.About_sec h2 { font-size: 30px; line-height: 30px; }
@@ -351,13 +353,13 @@ http://www.templatemo.com/tm-473-november
 	.About_sec .Tabside .TabImage .img2 img { width: 94%; height: auto; }
 	.About_sec .Tabside .Description { margin-top: 0px; width: 100%; }
 	.About_sec .Tabside .Description p { padding: 10px 0px; text-align: justify; }
-	
+
 	.Services_sec .Center { width: 100%; padding: 0px 3%; }
 	.Services_sec h2 { font-size: 30px; line-height: 30px; }
 	.Services_sec p { padding: 15px 0px; font-size: 13px; }
 	.Services_sec .Serviceside { width: 100%; padding: 50px 0 30px; }
 	.Services_sec .Serviceside li { margin: 0px 0% 3% 2%; float: none; display:inline-block; }
-	
+
 	.Pricing_sec .Center { width: 100%; padding: 0px 3%; }
 	.Pricing_sec h2 { font-size: 30px; line-height: 30px; }
 	.Pricing_sec p { padding: 15px 0px; font-size: 13px; }
@@ -369,7 +371,7 @@ http://www.templatemo.com/tm-473-november
 	.Pricing_sec .Pricingside li .Band { width: 100%; float: none; border-bottom: solid 1px #ccc; background: none; height: 75px; }
 	.Pricing_sec .Pricingside li .Order { width: 100%; float: none; }
 	.Pricing_sec .Pricingside li:hover .Band { height: 75px; }
-	
+
 	.Contact_sec { width: 100%; }
 	.Contact_sec .Center { width: 100%; padding: 60px 3% 30px;}
 	.Contact_sec h2 { font-size: 30px; line-height: 30px; }
@@ -377,11 +379,11 @@ http://www.templatemo.com/tm-473-november
 
 	.Contact_sec .Map { width: 100%;}
 	.Contact_sec .Map img { height: 200px; width: 100%; }
-	
+
 	.Get_sec { width: 100%; }
 	.Get_sec .Mid { width: 100%; padding: 30px 4%; }
 	.Get_sec .Leftside { width: 100%; float: right;}
-	.Get_sec .Leftside p { margin: 0 0 20px; } 
+	.Get_sec .Leftside p { margin: 0 0 20px; }
 	.Get_sec .Leftside input.field { padding: 10px 20px; }
 	.Get_sec .Leftside textarea { padding: 10px 20px; height: 125px; }
 	.Get_sec .Leftside .button { margin: 0px; padding: 12px 0px; -webkit-appearance: none; }
@@ -390,17 +392,18 @@ http://www.templatemo.com/tm-473-november
 	.Get_sec .Rightside h3 { font-size: 30px; padding-bottom: 10px; }
 	.Get_sec .Rightside address { padding: 0 0 15px 47px; }
 	.Get_sec .Rightside ul { padding: 10px 0 0 3px; }
+	.Center.Get_sec .Rightside { width:80%; float : none; margin-left:0px;}
 
 	footer { width: 100%; }
-	footer .Cntr { width: 100%; padding: 10px 3%; }	
+	footer .Cntr { width: 100%; padding: 10px 3%; }
 }
 
 @media only screen and (max-width: 1199px) {
-	
+
 	header,
 	.Navigation li,
-	.Navigation li:hover span, 
-	.Navigation li.active span { 
+	.Navigation li:hover span,
+	.Navigation li.active span {
 		height: 87px; }
 	header.smaller .Navigation li:hover span,
 	header.smaller .Navigation li.active span {
@@ -408,8 +411,8 @@ http://www.templatemo.com/tm-473-november
 	}
 }
 @media only screen and (max-width: 767px) {
-	header { 
-		height: 55px; 
+	header {
+		height: 55px;
 		position: fixed;
 	}
 	.Navigation li {
@@ -425,9 +428,9 @@ http://www.templatemo.com/tm-473-november
 		border-bottom: none;
 		background: none;
 	}
-	#mobile_sec .menumobile .Navigation li:hover, 
+	#mobile_sec .menumobile .Navigation li:hover,
 	#mobile_sec .menumobile .Navigation li.active {
-		background: #FF9000 none repeat scroll 0% 0%;
+		background: #50bc45 none repeat scroll 0% 0%;
 		border-bottom: medium none;
 	}
 	header.smaller .Navigation li {

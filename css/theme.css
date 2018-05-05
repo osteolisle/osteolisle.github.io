@@ -11,9 +11,9 @@ http://www.templatemo.com/tm-473-november
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0; font-family: inherit; font-size: 100%; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
 html, body, button, input, select, textarea { font-family: Arial; font-size: 12px; color: #8c806e; }
-ul, ol { margin-top: 0; margin-bottom: 10px; }
+ul, ol { margin-top: 0; margin-bottom: 10px; } 
 ul ul { margin-bottom: 0; }
-li { font-size: 13px; margin: 5px 0px 10px 0px; }
+li { font-size: 13px; margin: 5px 0px 10px 0px; display:block;}
 pre { overflow: auto; }
 table { border-collapse: separate; border-spacing: 0; }
 caption, th, td { font-weight: normal; text-align: left; }
@@ -94,8 +94,8 @@ header.smaller .Navigation li a { padding: 16px 27px; }
 header.smaller .Navigation li { height: 60px; }
 
 .mobile { display: none;  }
-.mobile .fa { padding: 12px 14px; font-size: 31px; width: 55px; height: 55px; color: #fff; cursor: pointer; background: #ff9408; }
-.mobile .fa:hover { background: #e3860e; }
+.mobile .fa { padding: 12px 14px; font-size: 31px; width: 55px; height: 55px; color: #fff; cursor: pointer; background: #396926; }
+.mobile .fa:hover { background: #396926; }
 .mobile.closed .fa-bars { display: none; }
 .mobile .fa-times { padding: 11px 15px; width: 55px; height: 55px; display: none; font-size: 31px; }
 .mobile.closed .fa-times { display: block; }
@@ -147,8 +147,8 @@ header.smaller .Navigation li { height: 60px; }
 	.About_sec { padding: 115px 0px 88px 0px ; width: 100%; overflow: hidden; }
 	.About_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
 	.About_sec h2 { font-size: 56px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; letter-spacing: -0.4px; }
-	.About_sec p { padding: 24px 0px 35px 0px; font-size: 14px; color: #979797; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
-	.About_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
+	.About_sec p { padding: 24px 0px 35px 0px; font-size: 18px; color: #979797; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
+	.About_sec .Line { border: solid 1px #50bc45; height: 2px; width: 252px; margin: auto; }
 	.About_sec .Tabside { padding: 90px 0px; width: 100%;}
 	.About_sec .Tabside ul { list-style: none; margin: 0px; padding-bottom: 59px; }
 	.About_sec .Tabside li { float: none; padding: 0px; margin: 0px -2px; display: inline-block;}
@@ -170,8 +170,8 @@ header.smaller .Navigation li { height: 60px; }
 	.Services_sec{ padding: 114px 0px 90px 0px ; width: 100%; overflow: hidden; background: url(../img/Services-bg.jpg) top center no-repeat; background-size: cover; }
 	.Services_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
 	.Services_sec h2 { font-size: 56px; color: #fff; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; }
-	.Services_sec p { padding: 25px 0px 35px 0px; font-size: 14px; color: #d8dfe5; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
-	.Services_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
+	.Services_sec p { padding: 25px 0px 35px 0px; font-size: 18px; color: #d8dfe5; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
+	.Services_sec .Line { border: solid 1px #50bc45; height: 2px; width: 252px; margin: auto; }
 	.Services_sec .Serviceside { padding: 76px 0px 30px 0px; width: 100%; overflow: hidden; }
 	.Services_sec .Serviceside ul { list-style: none; margin: 0px }
 	.Services_sec .Serviceside li { float: left; padding: 0px; margin: 0px 40px 0px 0px; text-align: center; width: 245px; }
@@ -199,8 +199,8 @@ header.smaller .Navigation li { height: 60px; }
 	.Pricing_sec { padding: 112px 0px 108px 0px ; width: 100%; overflow: hidden; background: #ececec; }
 	.Pricing_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
 	.Pricing_sec h2 { font-size: 57px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; }
-	.Pricing_sec p { padding: 26px 0px 35px 0px; font-size: 14px; color: #8f8f8f; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
-	.Pricing_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
+	.Pricing_sec p { padding: 26px 0px 35px 0px; font-size: 18px; color: #8f8f8f; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
+	.Pricing_sec .Line { border: solid 1px #50bc45; height: 2px; width: 252px; margin: auto; }
 	.Pricing_sec .Pricingside { padding: 75px 0px 0px 0px; width: 100%; overflow: hidden; text-align: initial; }
 	.Pricing_sec .Pricingside ul { list-style: none; margin: 0px; }
 	.Pricing_sec .Pricingside li { float: none; padding: 0px; margin: 0px 0px 11px 0px; height: 103px; background: #fff; text-align: center; }
@@ -233,7 +233,7 @@ header.smaller .Navigation li { height: 60px; }
 	.Contact_sec .Center { padding: 115px 0px 77px 0px;  max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
 	.Contact_sec h2 { font-size: 57px; color: #fff; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px;}
 	.Contact_sec p { padding: 24px 0px 35px 0px; font-size: 14px; color: #ebebeb; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
-	.Contact_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
+	.Contact_sec .Line { border: solid 1px #50bc45; height: 2px; width: 252px; margin: auto; }
 	.Contact_sec .Pricingside { padding: 70px 0px 10px 0px; width: 100%; overflow: hidden; text-align: initial; }
 
 	/* <<< Map >>> */
@@ -264,6 +264,8 @@ header.smaller .Navigation li { height: 60px; }
 		.Get_sec .Rightside ul { list-style: none; margin: 0px; padding: 27px 0px 0px 3px; }
 		.Get_sec .Rightside li { float: left; padding: 0px; margin: 0px  22px 0px 0px; }
 		.Get_sec .Rightside li a { text-decoration: none; }
+
+		.Center.Get_sec .Rightside { width: 35% ; float: none; margin-left:35% }
 
 		/* <<< footer >>> */
 		footer { overflow: hidden; width: 100%; text-align: center; background: rgba(0, 0, 0, 0.6); }
