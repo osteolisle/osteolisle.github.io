@@ -58,7 +58,7 @@ header { width: 100%; position: fixed; top: 0px; left: 0px; height: 105px; backg
 header .Center { max-width: 90%; margin: auto; }
 header .site-logo { padding: 10px 0px 0px 0px; width: 30%; float: left; transition: all 0.3s;  }
 header .site-logo h1 { margin: 0px; margin-left:-10% }
-header .site-logo h1 a { font-size: 30px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; transition: all 0.7s ease;  }
+header .site-logo h1 a { font-size: 28px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; transition: all 0.7s ease;  }
 header .site-logo h1 a span { color: #50bc45; }
 header.smaller { padding: 0px 0px 0px 0px; height: 60px; transition: all 0.3s; background: rgba(88, 158, 67, 0.75); }
 header.smaller .site-logo {padding: 10px 0px 0px 0px; }
@@ -66,10 +66,10 @@ header.smaller .site-logo h1 { line-height: 30px; }
 header.smaller .site-logo h1 a { font-size: 19px;  }
 
 /* <<< Navigation >>> */
-.Navigation { float: right; width: 70%;}
+.Navigation { float: right; width: 70%; box-sizing: content-box;}
 .Navigation ul { list-style: none; margin: 0px; float: right; }
 .Navigation li { float: left; padding: 0px;  margin: 0px; height: 105px; position: relative; transition: all 0.3s ease; }
-.Navigation li a { padding: 42px 27px 36px 27px; font-size: 16px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.Navigation li a { padding: 42px 16px 36px 16px; font-size: 16px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 .Navigation li span {
 	border-bottom: solid 5px #50bc45;
 	background: rgba(111,185,52,1);
@@ -90,7 +90,7 @@ header.smaller .site-logo h1 a { font-size: 19px;  }
 	opacity: 1;
 }
 
-header.smaller .Navigation li a { padding: 16px 27px; }
+header.smaller .Navigation li a { padding: 16px 16px; }
 header.smaller .Navigation li { height: 60px; }
 
 .mobile { display: none;  }
