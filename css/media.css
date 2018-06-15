@@ -8,22 +8,25 @@ http://www.templatemo.com/tm-473-november
 
 @media only screen and (min-width: 769px) and (max-width: 10000px) {
 	#mobile_sec .menumobile { display: block!important; }
+	.Navigation li a { max-width: inherit;}
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
 
 	header { width: 100%; }
 	header .Center { width: 100%; padding: 0px 2%;  }
-	header .site-logo { padding: 18px 0 0 1px; }
-	header.smaller .site-logo { padding: 11px 0 0; }
+	header .site-logo { padding: 0px 0 0 1px; }
+	header .site-logo h1 { line-height:27px;}
+	header.smaller .site-logo { padding: 0px 0 0; }
+	header.smaller .site-logo h1 { line-height: 20px; }
 
 	.Navigation { margin-right: 0px; }
-	.Navigation li a { padding: 30px 36px; }
-	header.smaller .Navigation li a { padding: 16px 36px; }
+	.Navigation li a { padding: 30px 20px; max-width: 120px;}
+	header.smaller .Navigation li a { padding: 16px 36px;}
 
 
-	.Banner_sec { width: 100%; height: 524px; }
-	.Banner_sec .Center {width: 100%; padding: 0px 2%; }
+	.Banner_sec { width: 100%; height: 524px;}
+	.Banner_sec .Center {width: 100%; padding: 0px 0%; }
 	.Banner_sec .bannerside { top: 144px; }
 	.Banner_sec .leftside h3 { font-size: 32px; }
 	.Banner_sec .rightside { width: 66%; }
@@ -83,10 +86,10 @@ http://www.templatemo.com/tm-473-november
 	header .site-logo { padding: 2px 0 0 1px;  position: relative; z-index: 1; }
 	header .site-logo h1 { line-height: 27px; margin-left: -20%; }
 	header.smaller .site-logo h1 { line-height: 18px; }
-	header.smaller .Navigation li a { padding: 16px 16px; }
+	header.smaller .Navigation li a { padding: 16px 16px;}
 
 	.Navigation {  margin-right: 0px; }
-	.Navigation li a { padding: 30px 20px; }
+	.Navigation li a { padding: 30px 20px; max-width:90px;}
 
 	.Banner_sec { width: 100%; height: 464px; }
 	.Banner_sec .Center {width: 100%; padding: 0px 2%; }
@@ -188,13 +191,12 @@ http://www.templatemo.com/tm-473-november
 
 	header { width: 100%; position: absolute; height: 57px;}
 	header .Center { width: 100%;  }
-	header .site-logo { padding: 10px 0% 0px 3%; position: relative; z-index: 1; }
-	header .site-logo h1 { margin: 0px; line-height: 36px; }
+	header .site-logo { padding: 0px 0% 0px 3%; position: relative; z-index: 1; width: 80%;}
+	header .site-logo h1 { margin: 0px; line-height: 26px; }
 	header.smaller { height: 55px;}
 	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
-	header.smaller .site-logo h1 a { font-size: 36px; }
 
-	#mobile_sec { position: fixed; width: 100%; }
+	#mobile_sec { position: fixed; width: 95%; }
 	#mobile_sec .mobile { display: block; position: relative; float: right;}
 	#mobile_sec .menumobile { display: none; width: 100%; position: absolute; top: 55px; right: 0%; background: rgba(0, 0, 0, 0.5);  }
 	#mobile_sec .menumobile .Navigation { width: 100%; float: none; }
@@ -420,7 +422,7 @@ http://www.templatemo.com/tm-473-november
 		height: 45px;
 	}
 	header .site-logo {
-		padding-top: 8px;
+		padding-top: 0px;
 	}
 	.Navigation li:hover span, .Navigation li.active span {
 		height: 45px;
