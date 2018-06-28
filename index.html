@@ -25,7 +25,26 @@ http://www.templatemo.com/tm-473-november
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,400italic,800,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-
+    
+<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
+<script type="application/ld+json">
+[ {
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "telephone" : "03 63 11 00 15"
+}, {
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "telephone" : "(+33) (0)3 63 11 00 15",
+  "email" : "contact@lisle-osteo.fr",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "3 quai du canal",
+    "addressLocality" : "L'Isle-sur-le-Doubs",
+    "postalCode" : "25250"
+  }
+} ]
+</script>
 </head>
 <body>
 
@@ -82,7 +101,7 @@ http://www.templatemo.com/tm-473-november
                     <!--  \\ Begin Left Side -->
                     <div class="leftside">
                         <h3>Bienvenue!<span></span></h3>
-                        <p>Audrey GURY et Pauline BODIN vous accueillent sur rendez-vous au <br/>03 63 11 00 15</p>
+                        <p itemscope itemtype="http://schema.org/LocalBusiness">Audrey GURY et Pauline BODIN vous accueillent sur rendez-vous au <br/><span  itemprop="telephone">03 63 11 00 15</span></p>
                         <a href="#about">Plus d'infos</a>
                     </div>
                     <!--  // End Left Side // -->
@@ -154,15 +173,15 @@ http://www.templatemo.com/tm-473-november
             <div class="Contactside">
                 <div class="Center Get_sec">
                     <h2>Nous trouver</h2>
-                        <div class="Rightside">
-                        	<address>
-                                    3 quai du canal,<br>25250 L'Isle-sur-le-Doubs.
+                        <div itemscope itemtype="http://schema.org/LocalBusiness" class="Rightside">
+                        	<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<span itemprop="streetAddress">3 quai du canal</span>,<br><span itemprop="postalCode">25250</span> <span itemprop="addressLocality">L'Isle-sur-le-Doubs</span>.
                                 </address>
-                                <address class="Number">
+                                <address itemprop="telephone" class="Number">
                                     (+33) (0)3 63 11 00 15
                                 </address>
                                 <address class="Email">
-                                    <a href="mailto:contact@lisle-osteo.fr">contact@lisle-osteo.fr</a>
+                                    <a href="mailto:contact@lisle-osteo.fr"><span itemprop="email">contact@lisle-osteo.fr</span></a>
                                 </address>
                                 <div class="clear"></div>
                         </div>
